@@ -17,7 +17,7 @@ module.exports = {
         'verydark-desaturated-blue': 'hsl(212, 27%, 19%)',
         'verydark-grayish-blue': 'hsl(213, 9%, 39%)',
         'dark-grayish-blue': 'hsl(232, 10%, 55%)',
-        'grayish blue': 'hsl(210, 4%, 67%)',
+        'grayish-blue': 'hsl(210, 4%, 67%)',
       },
 
       backgroundImage: {

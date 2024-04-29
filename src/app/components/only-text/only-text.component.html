@@ -1,1 +1,5 @@
-<p>only-text works!</p>
+<section class="text-center px-4 pt-12 md:px-16 lg:px-32 md:text-left lg:pb-40">
+  <h2 class="font-fraunces-black text-4xl pb-7 px-4 sm:px-0 sm:pr-20">{{text?.title}}</h2>
+  <p class="pb-7 font-barlow text-dark-grayish-blue">{{text?.description}}</p>
+  <button [ngClass]="text?.color" class="font-fraunces-black pb-8">LEARN MORE</button>
+</section>

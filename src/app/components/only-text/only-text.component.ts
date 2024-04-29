@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ShowText } from 'src/app/interfaces/show-text';
 
 @Component({
   selector: 'app-only-text',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./only-text.component.css']
 })
 export class OnlyTextComponent {
-
+  @Input() text?: ShowText;
 }
