@@ -20,13 +20,23 @@ module.exports = {
         'grayish blue': 'hsl(210, 4%, 67%)',
       },
 
+      backgroundImage: {
+        //desktop
+        'desktop-header': 'url("assets/img/desktop/image-header.jpg")',
+        'desktop-graphic-design': 'url("assets/img/desktop/image-graphic-design.jpg")',
+        'desktop-photography': 'url("assets/img/desktop/image-photography.jpg")',
 
+        //mobile
+        'mobile-header': 'url("assets/img/mobile/image-header.jpg")',
+        'mobile-graphic-design': 'url("assets/img/mobile/image-graphic-design.jpg")',
+        'mobile-photography': 'url("assets/img/mobile/image-photography.jpg")',
+      },
 
       fontFamily: {
         'barlow': 'barlow-semibold',
         'fraunces-bold': 'fraunces-bold',
         'fraunces-black': 'fraunces-black',
-      }
+      },
     },
   },
   plugins: [],

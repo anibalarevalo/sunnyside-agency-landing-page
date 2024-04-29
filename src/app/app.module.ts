@@ -4,11 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './components/main/main.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { OnlyImageComponent } from './components/only-image/only-image.component';
+import { OnlyTextComponent } from './components/only-text/only-text.component';
+import { TextImageComponent } from './components/text-image/text-image.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent,
+    OnlyImageComponent,
+    OnlyTextComponent,
+    TextImageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
