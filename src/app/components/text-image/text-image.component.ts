@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ShowOnlyImage } from 'src/app/interfaces/show-only-image';
+import { ShowOnlyText } from 'src/app/interfaces/show-only-text';
+import { imageGraphicDesign } from 'src/app/mocks/image.mock';
 
 @Component({
   selector: 'app-text-image',
@@ -6,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./text-image.component.css']
 })
 export class TextImageComponent {
+  @Input() image?: ShowOnlyImage;
+  @Input() text?: ShowOnlyText;
 
 }

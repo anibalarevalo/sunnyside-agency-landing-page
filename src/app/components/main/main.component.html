@@ -1,11 +1,13 @@
-<div class="container max-w-[375px] mx-auto text-[18px] sm:max-w-[1440px] w-screen">
+<div class="container mx-auto text-[18px] sm:max-w-[1440px] ">
   <app-header></app-header>
   <div class="lg:grid lg:grid-cols-2">
-    <div>
-      <app-only-text [text]="text1"></app-only-text>
-    </div>
-    <div>
-      <app-only-text [text]="text2"></app-only-text>
-    </div>
+    <app-only-image [image]="image1"></app-only-image>
+    <app-only-text [text]="text1" class="lg:order-first"></app-only-text>
+
+    <app-only-image [image]="image2"></app-only-image>
+    <app-only-text [text]="text2"></app-only-text>
+
+    <app-text-image [image]="imageGraphicDesign" [text]="textGraphicDesign"></app-text-image>
+    <app-text-image [image]="imagePhotography" [text]="textPhotography"></app-text-image>
   </div>
 </div>

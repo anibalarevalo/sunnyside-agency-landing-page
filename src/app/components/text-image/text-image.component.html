@@ -1,1 +1,6 @@
-<p>text-image works!</p>
+<div [ngClass]="image?.src" class="bg-no-repeat bg-center bg-cover min-h-[500px] lg:min-h-[600px] grid content-end ">
+  <div class="text-center pb-8 lg:px-16 xl:px-40" [ngClass]="text?.color">
+    <h2 class="font-fraunces-black text-4xl pb-6">{{text?.title}}</h2>
+    <p>{{text?.description}}</p>
+  </div>
+</div>

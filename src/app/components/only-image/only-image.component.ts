@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ShowOnlyImage } from 'src/app/interfaces/show-only-image';
 
 @Component({
   selector: 'app-only-image',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./only-image.component.css']
 })
 export class OnlyImageComponent {
-
+  @Input() image?: ShowOnlyImage;
 }
