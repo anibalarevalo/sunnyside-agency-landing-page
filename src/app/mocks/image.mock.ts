@@ -1,12 +1,14 @@
 import { ShowOnlyImage } from "../interfaces/show-only-image";
 
+const src: string = 'assets/img/desktop/'
+
 export const image1: ShowOnlyImage = {
-  src: 'assets/img/desktop/image-transform.jpg',
+  src: src + 'image-transform.jpg',
   alt: 'egg'
 }
 
 export const image2: ShowOnlyImage = {
-  src: 'assets/img/desktop/image-stand-out.jpg',
+  src: src + 'image-stand-out.jpg',
   alt: 'cup'
 }
 
@@ -18,4 +20,24 @@ export const imageGraphicDesign: ShowOnlyImage = {
 export const imagePhotography: ShowOnlyImage = {
   src: 'bg-desktop-photography',
   alt: 'orange'
+}
+
+export const imageCone: ShowOnlyImage = {
+  src: src + 'image-gallery-cone.jpg',
+  alt: 'cone'
+}
+
+export const imageMilkBottles: ShowOnlyImage = {
+  src: src + 'image-gallery-milkbottles.jpg',
+  alt: 'milk bottles'
+}
+
+export const imageOrange: ShowOnlyImage = {
+  src: src + 'image-gallery-orange.jpg',
+  alt: 'orange'
+}
+
+export const imageSugarCubes: ShowOnlyImage = {
+  src: src + 'image-gallery-sugarcubes.jpg',
+  alt: 'sugar cubes'
 }

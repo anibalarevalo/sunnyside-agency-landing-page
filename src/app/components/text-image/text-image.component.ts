@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { ShowOnlyImage } from 'src/app/interfaces/show-only-image';
 import { ShowOnlyText } from 'src/app/interfaces/show-only-text';
-import { imageGraphicDesign } from 'src/app/mocks/image.mock';
 
 @Component({
   selector: 'app-text-image',
