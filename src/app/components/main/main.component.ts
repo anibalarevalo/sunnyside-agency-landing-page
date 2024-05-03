@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { ShowOnlyImage } from 'src/app/interfaces/show-only-image';
 import { ShowOnlyText } from 'src/app/interfaces/show-only-text';
+import { Testimonial } from 'src/app/interfaces/testimonial';
 import { image1, image2, imageGraphicDesign, imagePhotography } from 'src/app/mocks/image.mock';
+import { testimony1, testimony2, testimony3 } from 'src/app/mocks/testimonial.mock';
 import { text1, text2, textGraphicDesign, textPhotography } from 'src/app/mocks/text.mock';
 
 @Component({
@@ -18,6 +20,11 @@ export class MainComponent {
 
   imageGraphicDesign: ShowOnlyImage = imageGraphicDesign;
   textGraphicDesign: ShowOnlyText = textGraphicDesign;
+  
   imagePhotography: ShowOnlyImage = imagePhotography;
   textPhotography: ShowOnlyText = textPhotography;
+
+  testimony1: Testimonial = testimony1
+  testimony2: Testimonial = testimony2
+  testimony3: Testimonial = testimony3
 }

@@ -1,6 +1,6 @@
-<div class="container mx-auto text-[18px] sm:max-w-[1440px] ">
+<main class="mx-auto text-[18px] ">
   <app-header></app-header>
-  <div class="lg:grid lg:grid-cols-2">
+  <section class="lg:grid lg:grid-cols-2">
     <app-only-image [image]="image1"></app-only-image>
     <app-only-text [text]="text1" class="lg:order-first"></app-only-text>
 
@@ -9,5 +9,14 @@
 
     <app-text-image [image]="imageGraphicDesign" [text]="textGraphicDesign"></app-text-image>
     <app-text-image [image]="imagePhotography" [text]="textPhotography"></app-text-image>
-  </div>
-</div>
+  </section>
+  <section class="md:grid md:grid-cols-3 mt-24 mb-16">
+    <h2 class="md:col-span-full text-center font-fraunces-bold text-grayish-blue text-2xl">CLIENT TESTIMONIALS</h2>
+    <app-testimonial [testimony]="testimony1"></app-testimonial>
+    <app-testimonial [testimony]="testimony2"></app-testimonial>
+    <app-testimonial [testimony]="testimony3"></app-testimonial>
+  </section>
+  <section>
+    
+  </section>
+</main>

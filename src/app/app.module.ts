@@ -9,6 +9,7 @@ import { OnlyImageComponent } from './components/only-image/only-image.component
 import { OnlyTextComponent } from './components/only-text/only-text.component';
 import { TextImageComponent } from './components/text-image/text-image.component';
 import { HeaderComponent } from './components/header/header.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './components/header/header.component';
     OnlyImageComponent,
     OnlyTextComponent,
     TextImageComponent,
-    HeaderComponent
+    HeaderComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
