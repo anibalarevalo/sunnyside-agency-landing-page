@@ -1,5 +1,7 @@
-<main class="mx-auto text-[18px] ">
+<div class="mx-auto text-[18px]">
   <app-header></app-header>
+
+  <main>
   <section class="lg:grid lg:grid-cols-2">
     <app-only-image [image]="image1"></app-only-image>
     <app-only-text [text]="text1" class="lg:order-first"></app-only-text>
@@ -16,11 +18,14 @@
     <app-testimonial [testimony]="testimony2"></app-testimonial>
     <app-testimonial [testimony]="testimony3"></app-testimonial>
   </section>
+
   <section class="grid grid-cols-2 md:grid-cols-4">
     <app-only-image [image]="imageMilkBottles"></app-only-image>
     <app-only-image [image]="imageOrange"></app-only-image>
     <app-only-image [image]="imageCone"></app-only-image>
     <app-only-image [image]="imageSugarCubes"></app-only-image>
   </section>
+  </main>
+  
   <app-footer></app-footer>
-</main>
+</div>

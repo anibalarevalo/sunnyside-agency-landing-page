@@ -1,0 +1,3 @@
+.hover {
+  @apply hover:text-white transition ease-in-out duration-[250ms] cursor-pointer hover:fill-white 
+}
