@@ -8,8 +8,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactComponent {
   formDate: FormGroup
-  date?: Date
-  p?: string
 
   constructor(private fb: FormBuilder) {
     this.formDate = this.fb.group({
