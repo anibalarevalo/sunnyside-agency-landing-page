@@ -1,0 +1,7 @@
+.formInput {
+  @apply w-[72px] h-[36px] border-2 border-gray-500 rounded-md font-fraunces-bold text-center md:w-[50%]
+}
+
+.formLabel {
+  @apply block font-fraunces-bold text-xs text-gray-500
+}

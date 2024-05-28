@@ -1,0 +1,17 @@
+<div class="mx-auto w-full max-w-lg pt-6 bg-blue-800">
+  <form [formGroup]="formDate" (ngSubmit)="submit()" class="mx-4">
+    <div class="grid grid-cols-2 justify-items-center mb-16">
+      <div>
+        <label for="name" class="formLabel">Name</label>
+        <input type="text" name="name" id="name" formControlName="name" class="formInput">
+      </div>
+      <div>
+        <label for="email" class="formLabel">Email</label>
+        <input type="text" name="email" id="email" formControlName="email" class="formInput">
+      </div>
+    </div>
+    <div class="pb-4">
+      <button type="submit" class="mx-auto block">Submit</button>
+    </div>
+  </form>
+</div>
